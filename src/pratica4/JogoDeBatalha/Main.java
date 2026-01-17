@@ -6,7 +6,7 @@ import pratica4.JogoDeBatalha.SistemaDeBatalha.Batalha;
 
 class Main {
     public static void main(String[] args) {
-        Guerreiro guerreiro = new Guerreiro("Cleiton", 8, 6,); 
+        Guerreiro guerreiro = new Guerreiro("Cleiton", 8, 6, 10);
         Mago mago = new Mago("Mestre", 10, 3, 19);
 
         // Batalha.tunoDeBatalha(guerreiro, mago);
